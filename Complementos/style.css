@@ -1,0 +1,15 @@
+body{
+    background-image:linear-gradient(rgb(108 160 202 / 62%),rgb(133 18 114 / 75%)),url("https://i.pinimg.com/originals/29/11/14/291114021d4d234d1426e3ff7da2976b.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#resultado{
+    color: rgb(255, 255, 255);
+}
+
+#canvas{
+    border-radius: 12px;
+}
