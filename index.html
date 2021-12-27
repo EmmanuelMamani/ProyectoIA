@@ -163,7 +163,7 @@
 
         var tensor = tf.tensor4d(arr);
         var resultado = modelo.predict(tensor).dataSync();
-
+        console.log(resultado)
         var respuesta;
         if (resultado <= .5) {
           respuesta = "Gato";
